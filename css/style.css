@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+.bars {
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.bars__item {
+    width: 100%;
+    max-width: 40px;
+    height: 4px;
+    background-color: indigo;
+    display: block;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.nav {
+    background: #000;
+    display: none;
+}
+
+a {
+    display: block;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    height: 100vh;
+}
+.label {
+    font-size: 22px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+#name,#password {
+    margin-bottom: 30px;
+    width:24%;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0;
+    color: indigo;
+}
+#name:focus, #password:focus {
+    box-shadow: 0px 0px 20px gainsboro;
+}
+.form-icon {
+    background-color: rgb(255, 123, 0);
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.form-btn {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 15%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 0;
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+.form-btn:hover {
+    background-color: white;
+    color: indigo;
+}
+.form-eye {
+    position: absolute;
+    bottom: 36%;
+    right: 38%;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    color: indigo;
+}
+.form-eye-icon--none {
+    display: none;
+}

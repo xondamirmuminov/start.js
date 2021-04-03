@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- <div class="bars"> 
+       <span class="bars__item"></span>
+       <span class="bars__item"></span>
+       <span class="bars__item"></span>
+   </div> -->
+    <form class="form" onsubmit="check(event)">
+        <i class="far fa-user form-icon"></i>
+        <label class="label" for="name">Your name</label>
+        <input type="text" name="name" id="name" placeholder="Name">
+        <label class="label" for="password">Your password</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <button class="form-eye" type="button" onclick="see()"><i class="far fa-eye form-eye-icon"></i> <i class="far fa-eye-slash form-eye-icon--none"></i></button>
+        <button class="form-btn">Send</button>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+</html>
